@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <string>
 
@@ -9,4 +10,11 @@ int main()
     std::cout << "Hello " << name << "!" << std::endl;
 
     return 0;
+=======
+#include "c-echo.h"
+
+int main(int argv, char** argc) {
+    std::cout << "Count of output: " << count(echo(argv,argc)) << std::endl;
+>>>>>>> refs/remotes/origin/main
 }
+
